@@ -6,4 +6,5 @@ int main(){
  printf("git diff command");
  printf("Adding");
  printf("checking git branch working");
+ printf("Working on Pull command");
 }

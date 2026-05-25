@@ -9,4 +9,5 @@ int main(){
  printf("Working on Pull command");
  printf("Ckecking on git Fetch");
  printf("working on Git Stash");
+ printf("Working on reset\n");
 }

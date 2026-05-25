@@ -5,4 +5,5 @@ int main(){
  printf("Second Commit");
  printf("git diff command");
  printf("Adding");
+ printf("checking git branch working");
 }

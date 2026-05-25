@@ -7,4 +7,5 @@ int main(){
  printf("Adding");
  printf("checking git branch working");
  printf("Working on Pull command");
+ printf("Ckecking on git Fetch");
 }

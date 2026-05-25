@@ -10,4 +10,5 @@ int main(){
  printf("Ckecking on git Fetch");
  printf("working on Git Stash");
  printf("Working on reset\n");
+ printf("BUGGING CODE");
 }

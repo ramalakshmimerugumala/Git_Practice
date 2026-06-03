@@ -4,19 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building project from GitHub'
+                sh 'gcc file1.c -o app'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Testing project from GitHub'
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                echo 'Deploying project from GitHub'
+                sh './app'
             }
         }
     }

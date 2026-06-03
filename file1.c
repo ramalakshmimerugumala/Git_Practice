@@ -14,5 +14,7 @@ int main(){
 =======
  printf("Cherry pick code");
 >>>>>>> 10086d5 (cherry pick commit)
-printf("Stash testing");
+printf("Stash test");
+printf("Stash");
+printf("Working on git Poll SCM");
 }

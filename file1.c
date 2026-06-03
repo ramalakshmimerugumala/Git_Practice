@@ -19,6 +19,6 @@ printf("Stash\n");
 printf("Working on git Poll SCM\n");
 printf("Working on the jenkin webhook\n");
 printf("Working on Pipeline\n");
-printf("CI/CD test\n");
+printf("CI/CD test\n")
 
 }

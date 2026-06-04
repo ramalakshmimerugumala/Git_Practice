@@ -13,10 +13,11 @@ pipeline {
                 sh './app'
             }
         }
-        post {
-           success {
-             archiveArtifacts artifacts: 'app'
     }
-    }
+
+    post {
+        success {
+            archiveArtifacts artifacts: 'app'
+        }
     }
 }

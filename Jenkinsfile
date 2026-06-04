@@ -13,5 +13,10 @@ pipeline {
                 sh './app'
             }
         }
+        post {
+           success {
+             archiveArtifacts artifacts: 'app'
+    }
+    }
     }
 }
